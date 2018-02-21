@@ -1,3 +1,5 @@
+'use strict'
+
 const Bundler = require('parcel-bundler')
 const path = require('path')
 
@@ -21,11 +23,20 @@ if (isProd) {
   }
 }
 
-// parcel default option
+/**
+ * parcel built-in options
+ * @type {Object}
+ * @property {string} outDir output dir
+ * @property {string} publicUrl 
+ */
 const defaultOption = {
   outDir: path.join(__dirname, '..', 'dist'),
   publicUrl: '/',
-  detailReport: true
+  detailReport: true,
+  cache: true,
+  minify: true,
+  sourceMaps: true,
+  http: true
 }
 
 const bundleOption = Object.assign({}, defaultOption, option)
