@@ -33,7 +33,7 @@ npm run server
 yarn server
 ```
 
-Run the dev mode of parcel-bundler
+Run the dev mode of parcel-bundler another termnial
 ```bash
 # npm
 npm run dev
