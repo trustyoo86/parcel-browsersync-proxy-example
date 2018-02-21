@@ -1,3 +1,8 @@
+/**
+ * ajax example
+ * 
+ * @since 2018.02.21 - draft
+ */
 import $ from 'jquery'
 
 const ajaxUtil = {

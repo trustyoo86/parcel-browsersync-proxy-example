@@ -3,10 +3,21 @@
   "version": "0.0.1",
   "description": "parcel express + browsersync proxy example",
   "main": "index.js",
+  "keywords": [
+    "parcel",
+    "parcel-bundler",
+    "javascript",
+    "browsersync",
+    "webpack",
+    "es6",
+    "nodejs",
+    "express"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon server.js",
-    "dev": "NODE_ENV=development && node ./dev/browserSync.js && npm run server"    
+    "dev": "NODE_ENV=development && node ./dev/browserSync.js",
+    "prod": "NODE_ENV=production && node server.js"
   },
   "author": "",
   "license": "ISC",
