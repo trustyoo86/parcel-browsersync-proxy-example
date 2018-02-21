@@ -8,7 +8,7 @@ import $ from 'jquery'
 import ajaxUtil from './ajax'
 
 $(() => {
-  const ajaxPromise = ajaxUtil.get('/api')
+  const ajaxPromise = ajaxUtil.get(`${location.origin}/api`)
   const $textarea = $('[data-input=result]')
   // ajax
   ajaxPromise
