@@ -28,7 +28,8 @@
     "jquery": "^3.3.1",
     "node-sass": "^4.7.2",
     "react": "^16.8.5",
-    "react-dom": "^16.8.5"
+    "react-dom": "^16.8.5",
+    "tar": "^4.4.8"
   },
   "devDependencies": {
     "autoprefixer": "^8.0.0",
